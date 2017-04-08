@@ -14,17 +14,17 @@ body {
 codebase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,2,0
 width=500
 height=68>
-<param name=movie value=image/fence.swf>
+<param name=movie value=../image/fence.swf>
 <param name=quality value=high>
-<param name=BGCOLOR value=#0000FF>
+<param name=BGCOLOR value=#000000>
 <param name=SCALE value=showall>
 <param name=wmode value=transparent> 
-<embed src=image/fence.swf
+<embed src=../image/fence.swf
 quality=high
 pluginspage=http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash type=application/x-shockwave-flash
 width=500
 height=68
-bgcolor=#0000FF
+bgcolor=#000000
 scale= showall>
 </embed>
 </object></div></td>
@@ -32,23 +32,18 @@ scale= showall>
      <img border="0" src="image/topright.png" width="203" height="68" align="right"></td>
   </tr>
 </table>
-<table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#000000" background="img/blackbar.jpg">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#000000" background="image/blackbar.jpg">
   <tr>
-    <td width="100%" align="right"><img border="0" src="image/blackbar.jpg" width="89" height="15"></td>
+    <td width="100%"><img border="0" src="image/blackbar.jpg" width="89" height="15"></td>
   </tr>
-  </Table>
-  <Table width="100%">
+</table>
+  <table width="100%">
   <tr>
-  <td>
-  <?php @$_SESSION['login']; 
-  error_reporting(1);
-  ?>
-  </td>
-    <td>
+    <td aling=right>
 	<?php
-	if(isset($_SESSION['login']))
+	if(isset($_SESSION['alogin']))
 	{
-	 echo "<div align=\"right\"><strong><a href=\"index.php\"> Home </a>|<a href=\"signout.php\">Signout</a></strong></div>";
+	 echo "<div align=\"right\"><strong><a href=\"admin/login.php\">Admin Home</a>|<a href=\"signout.php\">Signout</a></strong></div>";
 	 }
 	 else
 	 {
@@ -56,7 +51,5 @@ scale= showall>
 	 }
 	?>
 	</td>
-	
   </tr>
-  
 </table>

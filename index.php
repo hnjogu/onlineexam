@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Wel come to Online Exam</title>
+<title>Welcome to kca university Online Exam system</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="quiz.css" rel="stylesheet" type="text/css">
 </head>
@@ -56,7 +56,7 @@ echo "<h1 class='style8' align=center>Wel come to Online Exam</h1>";
   </tr>
   <tr>
     <td height="296" valign="top"><div align="center">
-        <h1 class="style8">Wel come to Online Quiz</h1>
+        <h1 class="style8">Wel come to Online exam system</h1>
       <span class="style5"><img src="image/paathshala.jpg" width="129" height="100"><span class="style7"><img src="image/HLPBUTT2.JPG" width="50" height="50"><img src="image/BOOKPG.JPG" width="43" height="43"></span>        </span>
         <param name="movie" value="english theams two brothers.dat">
         <param name="quality" value="high">
@@ -65,10 +65,9 @@ echo "<h1 class='style8' align=center>Wel come to Online Exam</h1>";
         <param name="BGCOLOR" value="#FFFFFF">
 <p align="left" class="style5">&nbsp;</p>
       <blockquote>
-          <p align="left" class="style5"><span class="style7">Wel Come to KCA UNIVERSITY Online 
-            exam system. This system allow student to do exam online and they are also graded accornding to their performance. 
-            The system have all units being taken by the students.
-            You need to login for you to take the online exam.</span></p>
+          <p align="left" class="style5"><span class="style7">Wel Come to KCA UNIVERSITY Online exam system. 
+          This system allow student to do exam online and they are also graded accornding to their performance.
+          The system have all units being taken by the students. You need to login for you to take the online exam.</span></p>
       </blockquote>
     </div></td>
     <td valign="top"><form name="form1" method="post" action="">
@@ -96,8 +95,11 @@ echo "<h1 class='style8' align=center>Wel come to Online Exam</h1>";
 		  <input name="submit" type="submit" id="submit" value="Login">		  </td>
         </tr>
         <tr>
-          <td colspan="2" bgcolor="#CC3300"><div align="center"><span class="style4">New User ? <a href="signup.php">Signup Free</a></span></div></td>
-          </tr>
+          <td colspan="2" bgcolor="#CC3300"><div align="center"><span class="style4">admin login ? <a href="admin/index.php">Admin login</a></span></div></td>
+        </tr>
+        <tr>  
+          <td colspan="2" bgcolor="#CC3300"><div align="center"><span class="style4">New User? <a href="signup.php">Signup</a></span></div></td>
+        </tr>
       </table>
       <div align="center">
         <p class="style5"><img src="images/topleft.jpg" width="134" height="128">          </p>

@@ -83,7 +83,18 @@ function check()
 
 <body>
 <?php
-include("header.php");
+session_start();
+error_reporting(1);
+if (!isset($_SESSION['alogin']))
+{
+	echo "<br><h2>You are not Logged On Please Login to Access this Page</h2>";
+	echo "<a href=admin/index.php><h3 align=center>Click Here for Login</h3></a>";
+	exit();
+}
+?>
+
+<?php
+include("header2.php");
 ?>
  <table width="100%" border="0">
    <tr>
